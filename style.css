@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+body{
+	font-family: "Roboto", sans-serif;
+	line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 800 !important;
+}
+li:hover{
+	background: blue;
+	color: #fff !important;
+}
+a{
+  text-decoration: none;
+  font-weight: 700 !important;
+  transition: all 0.4s ease;
+}
+img{
+  width: 100%;
+}
+section{
+  padding: 110px 0;
+}
+
+/*HERO*/
+#hero{
+  background: linear-gradient(rgba(0, 0, 0,0.1), rgba(0, 0, 0, 0.1)), url(images/dd.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/*BTN*/
+.btn{
+  color: #fff !important;
+  font-weight: 500;
+  padding: 14px 32px;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+.btn-primary{
+  background: blue;
+}
+.btn-primary:hover{
+  background-color: navyblue;
+  transform: scale(1.1);
+  border-color: #f50e5d;
+}
+
+/*SERVICES*/
+#service{
+   background:linear-gradient(rgb(0, 224, 254,0.7), rgba(17, 7, 254, 0.7));
+
+   margin-top: -50px;
+}
+
+.service .icon{
+  display: flex;
+  align-items: center;
+}
+
+.service .icon i{
+	font-size: 40px;
+	background: blue;
+	padding: 15px 15px;
+	color: white;
+	border-radius: 40px;
+}
+
+/* Happy Clients */
+
+#clients{
+	background: linear-gradient(rgb(0, 224, 254,0.7), rgba(17, 7, 254, 0.7)), url(images/f1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+	top: -200px;
+}
+#clients .diviver{
+	height: 5px;
+	width: 80px;
+	background-color: white;
+}
+#clients i{
+	font-size: 50px;
+}
+
+/* TREATMENT */
+.treatment{
+	position: relative;
+	top: -150px;
+}
+
+/*GALLERY */
+#about{
+	position: relative;
+	top: -60px;
+}
+
+/* DIVIDER */
+.divider{
+  height: 4px;
+  width: 80px;
+  margin-bottom: 15px;
+  background: linear-gradient(to right,#00e0fe, #1107fe);
+}
+
+/* Scroll To Top */
+
+.to-top{
+	display:none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: #000;
+	color: #fff;
+	padding: 9px 12px;
+	border-radius: 50%;
+}
+.to-top:hover{
+  background: #d7d7d7;
+  color: #000;
+}
+
+
+
+
